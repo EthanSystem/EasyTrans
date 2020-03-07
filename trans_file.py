@@ -208,7 +208,7 @@ try:
 						content = blks[num + 1][4].replace("\n", " ")  # print('content:::',content)
 					except:
 						pass  # print('记录content失败！')  # img.finish(width=0.3)  # img.commit()
-		i += 1
+		i = i + 1
 except:
 	print('翻译过程出现异常......')
 	new_file_name = os.path.join(root, 'trans', 'output_file', 'translated_' + file_name)  # 翻译后的pdf保存路径
